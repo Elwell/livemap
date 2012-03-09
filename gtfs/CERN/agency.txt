@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang
+CERN,European Organisation for Nuclear Research,http://cern.ch,Europe/Zurich,en

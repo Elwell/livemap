@@ -1,0 +1,6 @@
+route_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1,1,Meyrin,Circular route within the Meyrin site,3,http://gs-dep.web.cern.ch/en/content/Shuttle/Circuit1,63c318,FFFFFF
+2,2,Prévessin,"Route between Meyrin (500 and Reception) and Prevessin site, via the St Genis hostel",3,http://gs-dep.web.cern.ch/en/content/Shuttle/Circuit2,df8600,FFFFFF
+3,3,Shift LHC as from 27.02.2012,"The new Circuit 3 LHC Shift in place due to the technical shutdown is also operating on weekends.",3,http://gs-dep.web.cern.ch/en/content/Shuttle/Circuit3_main_27Feb,ef2429,FFFFFF
+4,4,Meyrin - Airport - Meyrin,,3,http://gs-dep.web.cern.ch/en/content/Shuttle/Circuit4,00a6e7,FFFFFF
+6,6,Tram Prévessin,,3,http://gs-dep.web.cern.ch/en/content/Shuttle/Circuit6,4a2e92,FFFFFF

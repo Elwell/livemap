@@ -23,7 +23,7 @@ app.configure(function() {
 	app.set('view engine', 'html');
 });
 
-var gtfsdir = "ulm";
+var gtfsdir = "CERN";
 
 var gtfs = Gtfs(process.env.GTFS_PATH || path.join(__dirname,"gtfs",gtfsdir), function(gtfsData){
 

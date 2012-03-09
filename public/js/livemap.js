@@ -9,8 +9,8 @@ $(document).ready(function(){
 	});
 
 	var map = new L.Map('map', {
-		center : new L.LatLng(48.399976,9.995399),
-		zoom : 13,
+		center : new L.LatLng(46.2495,6.0753),
+		zoom : 14,
 		layers : [ cloudmade ],
 		zoomControl : false
 	});

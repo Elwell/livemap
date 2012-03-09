@@ -1,0 +1,3 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+MF,1,1,1,1,1,0,0,20120105,20121221
+C3,1,1,1,1,1,1,1,20120227,20121221
