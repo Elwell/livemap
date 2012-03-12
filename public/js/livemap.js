@@ -103,7 +103,8 @@ $(document).ready(function(){
 		
 			stopsLayer.on('featureparse', function(e) {
 				// you can style features depending on their properties, etc.
-				var popupText = '<b>' + e.properties.stop_name + '</b><br/>'+ e.properties.stop_longname;
+				var popupText = '<b>' + e.properties.stop_name + '</b>';
+				//var popupText = '<b>' + e.properties.stop_name + '</b><br/>'+ e.properties.stop_longname;
 				if (e.layer.setStyle) {
 					e.layer.setStyle({color: e.properties.color});
 					popupText += 'color: ' + e.properties.color;
@@ -170,7 +171,8 @@ $(document).ready(function(){
 					var popup;
 					var markerIcon = bIcon;
 					if(trips && trips[trip]){
-						popup = "<b>"+trips[trip].route_short_name+" – "+trips[trip].trip_headsign+"</b><br>"+trips[trip].route_long_name+"<br><i>"+trip+"</i>";
+						popup = "<b>"+trips[trip].route_short_name+"</b> "+trips[trip].route_long_name+" (<i>"+trip+"</i>)";
+						//popup = "<b>"+trips[trip].route_short_name+" – "+trips[trip].trip_headsign+"</b><br>"+trips[trip].route_long_name+"<br><i>"+trip+"</i>";
 						//bus or tram?
 						markerIcon = (trips[trip].route_type == "0" ? tIcon : bIcon);
 					}
